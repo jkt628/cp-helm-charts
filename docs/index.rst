@@ -83,7 +83,7 @@ You also could use the cloud provider's volumes by specifying `StorageClass <htt
 
 .. code:: yaml
 
-      apiVersion: storage.k8s.io/v1beta1
+      apiVersion: storage.k8s.io/v1
       kind: StorageClass
       metadata:
         name: ssd
