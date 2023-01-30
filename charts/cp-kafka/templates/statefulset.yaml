@@ -162,8 +162,8 @@ spec:
         {{- if .Values.persistence.enabled }}
           {{- $disksPerBroker := .Values.persistence.disksPerBroker | int }}
           {{- range $k, $e := until $disksPerBroker }}
-          - name: datadir-{{$k}}
-            mountPath: /opt/kafka/data-{{$k}}
+        - name: datadir-{{$k}}
+          mountPath: /opt/kafka/data-{{$k}}
           {{- end }}
         {{- end }}
         {{- if hasKey .Values "extraVolumeMounts" }}
