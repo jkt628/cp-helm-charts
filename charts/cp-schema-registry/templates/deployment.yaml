@@ -121,10 +121,10 @@ spec:
         configMap:
           name: {{ template "cp-schema-registry.fullname" . }}-jmx-configmap
       {{- end }}
-      {{- if .Values.nodeSelector }}
       {{- if hasKey .Values "extraVolumes" }}
 {{ toYaml .Values.extraVolumes | trim | indent 6 }}
       {{- end }}
+      {{- if .Values.nodeSelector }}
       nodeSelector:
 {{ toYaml .Values.nodeSelector | indent 8 }}
       {{- end }}
