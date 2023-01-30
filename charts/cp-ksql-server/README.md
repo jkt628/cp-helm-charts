@@ -8,7 +8,7 @@ The included queries file `queries.sql` is a stub provided to illustrate one pos
 
 ## Prerequisites
 
-* Kubernetes 1.9.2+
+* Kubernetes 1.25.3+
 * Helm 2.8.2+
 * A healthy and accessible Kafka Cluster
 
@@ -57,7 +57,7 @@ RESOURCES:
 NAME                         TYPE       CLUSTER-IP    EXTERNAL-IP  PORT(S)   AGE
 excited-lynx-cp-ksql-server  ClusterIP  10.31.253.70  <none>       8088/TCP  10s
 
-==> v1beta2/Deployment
+==> v1/Deployment
 NAME                         DESIRED  CURRENT  UP-TO-DATE  AVAILABLE  AGE
 excited-lynx-cp-ksql-server  1        1        1           0          10s
 

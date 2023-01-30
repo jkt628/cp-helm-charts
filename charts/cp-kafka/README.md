@@ -4,7 +4,7 @@ This chart bootstraps a cluster of Confluent Kafka
 
 ## Prerequisites
 
-* Kubernetes 1.9.2+
+* Kubernetes 1.25.3+
 * Helm 2.8.2+
 
 ## Developing Environment:

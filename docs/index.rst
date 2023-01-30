@@ -35,7 +35,7 @@ Tested Software
 
 These Helm charts have been tested with the following software versions:
 
--  `Kubernetes <https://kubernetes.io/>`__ 1.9.2+
+-  `Kubernetes <https://kubernetes.io/>`__ 1.25.3+
 -  `Helm <https://helm.sh/>`__ 2.8.2+
 -  `Confluent Platform Open Source Docker
    Images <https://hub.docker.com/u/confluentinc/>`__ |release|

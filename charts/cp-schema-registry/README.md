@@ -4,7 +4,7 @@ This chart bootstraps a deployment of a Confluent Schema Registry
 
 ## Prerequisites
 
-* Kubernetes 1.9.2+
+* Kubernetes 1.25.3+
 * Helm 2.8.2+
 * A healthy and accessible Kafka Cluster
 
@@ -48,7 +48,7 @@ NAMESPACE: default
 STATUS: DEPLOYED
 
 RESOURCES:
-==> v1beta2/Deployment
+==> v1/Deployment
 NAME                                   DESIRED  CURRENT  UP-TO-DATE  AVAILABLE  AGE
 lolling-chinchilla-cp-schema-registry  1        1        1           0          1s
 

@@ -4,7 +4,7 @@ This chart bootstraps a deployment of a Confluent REST Proxy
 
 ## Prerequisites
 
-* Kubernetes 1.9.2+
+* Kubernetes 1.25.3+
 * Helm 2.8.2+
 * A healthy and accessible Zookeeper Ensemble of the Kafka Cluster
 
@@ -54,7 +54,7 @@ RESOURCES:
 NAME                              TYPE       CLUSTER-IP     EXTERNAL-IP  PORT(S)   AGE
 hopping-salamander-cp-kafka-rest  ClusterIP  10.19.250.118  <none>       8082/TCP  1m
 
-==> v1beta2/Deployment
+==> v1/Deployment
 NAME                              DESIRED  CURRENT  UP-TO-DATE  AVAILABLE  AGE
 hopping-salamander-cp-kafka-rest  1        1        1           1          1m
 

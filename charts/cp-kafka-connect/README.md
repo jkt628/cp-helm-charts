@@ -4,7 +4,7 @@ This chart bootstraps a deployment of a Confluent Kafka Connect
 
 ## Prerequisites
 
-* Kubernetes 1.9.2+
+* Kubernetes 1.25.3+
 * Helm 2.8.2+
 * A healthy and accessible Kafka Cluster
 
@@ -55,7 +55,7 @@ RESOURCES:
 NAME                            TYPE       CLUSTER-IP     EXTERNAL-IP  PORT(S)   AGE
 kissing-macaw-cp-kafka-connect  ClusterIP  10.19.253.217  <none>       8083/TCP  34m
 
-==> v1beta2/Deployment
+==> v1/Deployment
 NAME                            DESIRED  CURRENT  UP-TO-DATE  AVAILABLE  AGE
 kissing-macaw-cp-kafka-connect  1        1        1           1          34m
 
